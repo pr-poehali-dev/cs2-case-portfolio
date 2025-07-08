@@ -20,34 +20,34 @@ const Index = () => {
   const cases = [
     {
       id: 1,
-      name: "Weapon Case",
+      name: "Оружейный кейс",
       price: 2.5,
       image: "/img/3b1b49c0-58ce-457d-98db-b06ff0a05811.jpg",
-      rarity: "Classified",
+      rarity: "Секретное",
       color: "from-purple-500 to-pink-500",
     },
     {
       id: 2,
-      name: "Spectrum Case",
+      name: "Спектрум кейс",
       price: 1.8,
       image: "/img/3b1b49c0-58ce-457d-98db-b06ff0a05811.jpg",
-      rarity: "Restricted",
+      rarity: "Ограниченное",
       color: "from-red-500 to-orange-500",
     },
     {
       id: 3,
-      name: "Gamma Case",
+      name: "Гамма кейс",
       price: 3.2,
       image: "/img/3b1b49c0-58ce-457d-98db-b06ff0a05811.jpg",
-      rarity: "Covert",
+      rarity: "Засекреченное",
       color: "from-yellow-500 to-red-500",
     },
     {
       id: 4,
-      name: "Prisma Case",
+      name: "Призма кейс",
       price: 2.1,
       image: "/img/3b1b49c0-58ce-457d-98db-b06ff0a05811.jpg",
-      rarity: "Mil-Spec",
+      rarity: "Армейское",
       color: "from-blue-500 to-purple-500",
     },
   ];
@@ -83,7 +83,7 @@ const Index = () => {
 
               <Button className="bg-primary hover:bg-primary/90">
                 <Icon name="User" size={16} className="mr-2" />
-                Steam Login
+                Вход через Steam
               </Button>
             </div>
           </div>
@@ -308,7 +308,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="font-semibold mb-4">CS2 Cases</h3>
+              <h3 className="font-semibold mb-4">CS2 Кейсы</h3>
               <p className="text-sm text-muted-foreground">
                 Лучшая платформа для открытия кейсов CS2
               </p>
